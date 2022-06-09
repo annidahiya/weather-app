@@ -1,0 +1,49 @@
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body>h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#week{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+#fcast{
+    border: 3px solid rgb(22, 13, 148);
+    height: 150px;
+    width: 120px;
+    text-align: center;
+    margin-left: 30px;
+    box-shadow: 0px 3px 4px 1px rgb(246, 248, 242) ;
+    color: white;
+    border-radius: 10px;
+}
+
+#sunset{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sunset>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
